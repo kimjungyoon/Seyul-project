@@ -7,4 +7,8 @@ export default defineConfig({
     port: 5173,
     open: true, // ✅ Vite 실행 시 자동으로 브라우저 열기
   },
+  base: "/Seyul-project/", // ✅ GitHub 저장소 이름을 입력!
+  build: {
+    outDir: "dist",
+  },
 });
